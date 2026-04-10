@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:gallery_saver/gallery_saver.dart';
+import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'video_extractor.dart';
 
@@ -66,7 +66,7 @@ class DownloadService {
       );
 
       // Сохраняем в галерею
-      await GallerySaver.saveVideo(filePath, albumName: 'WemSave');
+      await ImageGallerySaver.saveFile(filePath, name: 'WemSave');
 
       // Уведомление об успехе
       await _showNotification('Загрузка завершена', 'Видео сохранено в WemSave');
