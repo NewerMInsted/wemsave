@@ -28,9 +28,6 @@ dependencies:
   url_launcher: ^6.2.2
   share_plus: ^7.2.1
   
-  # Уведомления
-  flutter_local_notifications: ^16.3.0
-  
   # Видео плеер
   video_player: ^2.8.1
 
