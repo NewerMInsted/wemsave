@@ -10,26 +10,16 @@ dependencies:
   flutter:
     sdk: flutter
   
-  # UI
   cupertino_icons: ^1.0.6
   google_fonts: ^6.1.0
-  
-  # Функционал
   http: ^1.1.0
   path_provider: ^2.1.1
   permission_handler: ^11.0.1
   dio: ^5.4.0
   clipboard: ^0.1.3
-  
-  # Сохранение в галерею
   image_gallery_saver: ^2.0.3
-  
-  # Ссылки и шаринг
   url_launcher: ^6.2.2
   share_plus: ^7.2.1
-  
-  # Видео плеер
-  video_player: ^2.8.1
 
 dev_dependencies:
   flutter_test:
